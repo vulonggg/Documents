@@ -49,3 +49,73 @@ o	Port > 1024: port được định nghĩa thêm vào tùy theo nhu cầu của
 
 ![image](https://github.com/vulonggg/Documents/assets/167597317/fd71592b-fb8c-454c-8cbf-2f3d007092ea)
 
+
+
+
+
+6. File /etc/netplan/00-installer-config.yaml (ubuntu)
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    en01:
+      addresses:
+      - 192.168.1.25/24
+      - "2001:1::1/64"
+      gateway4: 192.168.1.1
+      gateway6: "2001:1::2"
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+
+sudo netplan apply
+
+
+
+------------------------------------
+
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    en01:
+      dhcp4: true
+      dhcp6: true
+
+
+
+-----------------------------------
+
+
+
+************* 2 network interfaces for 2 seperate netwoprks ***************
+network:
+  ethernets:
+    ens33:
+      dhcp4: true
+    ens34:
+            #dhcp4: true
+      addresses:
+      - 192.168.1.5/24
+      nameservers:
+        addresses:
+        - 192.168.1.2
+      routes:
+        - to: 192.168.1.0/24
+          via: 192.168.1.1
+
+    ens38:
+            #dhcp4: true
+      addresses:
+      - 192.168.50.5/24
+      routes:
+        - to: 192.168.50.0/24
+          via: 192.168.50.1
+  version: 2
+
+
+
+
