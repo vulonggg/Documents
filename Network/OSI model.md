@@ -31,3 +31,8 @@ Media Layers
 	Tầng Vật lý (Physical): Lớp thấp nhất. Cung cấp các công cụ cơ khí và điện để kích hoạt /hủy kích hoạt kết nối vật lý (hub, network adapter, dây cáp, anten, socket, công tắc, ….) là lớp bắt đầu tìm nguyên nhân
 
 
+
+
+![image](https://github.com/vulonggg/Documents/assets/167597317/e33d3d99-b7df-452e-94f1-3ddf82e84606)
+
+
