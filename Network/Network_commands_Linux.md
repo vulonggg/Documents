@@ -117,6 +117,19 @@ Lệnh arp là một trong những công cụ mạng chuyển đổi địa ch�
 
 
 
+- Lệnh nmap
+Scanning opening
+https://linuxhint.com/scan-all-ports-nmap/
+
+
+- Lệnh ethtool - check network transmitting speed
+ethtool <interface>| grep speed
+
+https://www.baeldung.com/linux/using-ethtool
+
+
+
+
   
 
 
