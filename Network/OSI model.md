@@ -17,7 +17,12 @@ Host Layers
 
 
 
+
+
+
+
 Media Layers
+
 	Tầng Mạng (Network): Xác định đường đi cho dữ liệu. Tạo kết nối giữa các mạng khác nhau. Router hoạt động ở tầng này. Quản lý ánh xạ giữa các địa chỉ IP, thông qua giao thức phân giải ARP (address resolution protocol) 
 
 	Tầng Liên kết dữ liệu (Data Link): Xác định cách dữ liệu được định dạng để truyền qua đường vật lý. Tạo kết nối giữa các thiết bị trong 1 mạng. Switch hoạt động ở tầng này
