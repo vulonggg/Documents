@@ -1,6 +1,7 @@
-<img src="media/image1.png" style="width:6.20833in;height:8.33333in" />
+![image](https://github.com/vulonggg/Documents/assets/167597317/ae1704fc-2bb7-4af3-8232-6834ce3d4137)
 
-<img src="media/image2.jpeg" style="width:6.5in;height:3.9in"
-alt="Image preview" />
+![image](https://github.com/vulonggg/Documents/assets/167597317/a150ce29-549b-4e4d-a79c-c3c63ebbb188)
+
+
 
 https://www.linkedin.com/pulse/ldap-lightweight-directory-access-protocol-mohamed-raache/?trackingId=ZKfvaLVvQ9KZKdqzuMx4Uw%3D%3D
